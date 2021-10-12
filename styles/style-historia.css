@@ -1,0 +1,99 @@
+/* ------------------------------------------------- CSS HISTORIA ------------------------------------------------------- */
+
+/* ------------------------------------------------- NAVBAR ------------------------------------------------------- */
+.navbar{
+    background-color: #101823;
+    position: fixed;
+    width: 100%;
+    height: 78px;
+    z-index: 2;
+    top: 0;
+}
+
+.navbar-historia{
+    top: 0;
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+.navbar-nav{
+    margin-right: 50px ;
+}
+
+.navbar .collapse .navbar-nav .nav-item{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 20px 0 20px;
+
+}
+.navbar .collapse .navbar-nav .nav-item:hover{
+    color: #ff4655;
+    transition: .3s;
+}
+
+.navbar .navbar-toggler{
+    background-color: #ff4655;
+}
+
+.collapse{
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbarNavAltMarkup{
+    background-color: #101823;
+}
+
+/* ------------------------------------------------- VIDEO ------------------------------------------------------- */
+.embed-responsive{
+    position: relative;
+    top: 78px;
+    z-index: -1;
+    width: auto;
+}
+
+/* ------------------------------------------------- MAIN ------------------------------------------------------- */
+.p-main{
+    margin: 200px 10px 100px 10px;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* ------------------------------------------------- FOOTER ------------------------------------------------------- */
+.w-100{
+    background-color: #101823;
+    bottom: 0;
+    width: 100%;
+  height: auto;
+}
+
+.col-lg-2 .list-unstyled li a{
+    color: grey;
+}
+
+.col-lg-2 .list-unstyled li a:hover{
+    color:#ff4655;
+    transition: .3s;
+}
+
+
+.item-personajes{
+    padding: 5px;
+    transition: width 2s;
+    background-color: grey;
+    margin: 4px;
+}
+
+.item-personajes:hover{
+    width: 18%;
+}
+
+.div-main{
+    margin: 10vw;
+
+}
