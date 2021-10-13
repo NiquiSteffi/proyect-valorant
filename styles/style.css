@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- HEADER ---------- */
+header{
+    background-color: #101823;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    height: 78px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.items-nav{
+    list-style: none; /*Quita el punto del "li"*/
+}
+
+.items-nav a{
+    color: white;
+    text-decoration: none; /*Quita linea que por defecto se le da a "a"*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 29px;
+    margin: 0 .85em;
+    box-sizing: border-box;
+}
+
+.items-nav a:hover{
+    border-bottom: 3px solid #ff4655;
+}
+
+#logo{
+    width: 100%;
+    height: 12vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- VIDEO INICIO ---------- */
+#video-inicio{
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 2;
+}
+
+.hide{
+    background-color: black;
+    z-index: 4;
+}
+
+@media (max-width: 1024px) {
+    #logo{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+
+}
