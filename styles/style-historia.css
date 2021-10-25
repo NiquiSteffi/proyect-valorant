@@ -69,7 +69,7 @@ main{
     background-color: #101823;
     width: 100%;
     height: auto;
-    margin-top: 9vh;
+    margin-top: -5vh;
 }
 
 .col-lg-2 .list-unstyled li a{
@@ -112,7 +112,7 @@ main{
     margin: auto;
     margin-top: -18vh;
     padding-top: 1vh;
-    padding-bottom: 3vh;
+    padding-bottom: 10vh;
     margin-bottom: 5vh;
     background: tomato;
 }
@@ -130,7 +130,6 @@ main{
 .carousel-item img{
     background-color: none;
     margin: auto;
-    height: 70vh;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
